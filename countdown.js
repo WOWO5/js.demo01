@@ -8,7 +8,7 @@ const endTime = new Date();//定义截止时间，数据类型为Date  注2
 endTime.setTime(endTime.getTime() + 3600*1000);//倒计时时间设定为一个小时
 var curShowTimeSeconds = 0;
 
-var balls = [];//用于装掉落小球的数组
+var balls = [];//用于装掉落小球
 
 const colors = ["#FFCCFF", "#FF00FF", "#FF6600", "CCOOFF", "#FFCC00", "#CC0000", "#66CCFF", "#66CC33", "CCFF00"];//掉落小球的颜色库
 
